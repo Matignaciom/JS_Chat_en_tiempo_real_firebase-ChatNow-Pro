@@ -4,12 +4,12 @@ import { getFirestore, collection, addDoc, query, orderBy, onSnapshot } from 'ht
 
 // Configuración de Firebase (usar la configuración que obtuviste en Firebase Console)
 const firebaseConfig = {
-    apiKey: "AIzaSyD00pVVl6H81D5puZcuDQnpTNxRn1MYKug",
-    authDomain: "chat-en-tiempo-real-testing.firebaseapp.com",
-    projectId: "chat-en-tiempo-real-testing",
-    storageBucket: "chat-en-tiempo-real-testing.appspot.com",
-    messagingSenderId: "390191613519",
-    appId: "1:390191613519:web:243a8d9d7bd4033eec0c3a"
+    apiKey: "tu_api_key",
+    authDomain: "tu_auth_domain",
+    projectId: "tu_project_id",
+    storageBucket: "tu_storage_bucket",
+    messagingSenderId: "tu_messaging_sender_id",
+    appId: "tu_app_id"
 };
 
 // Inicializar Firebase
