@@ -54,6 +54,9 @@ Para ejecutar este proyecto, necesitarás:
 
 Una vez que hayas configurado Firebase y tengas todo en su lugar, podrás ejecutar este chat en tiempo real en tu página web.
 
+## Futuras Mejoras
+En esta versión inicial básica, la funcionalidad de autenticación de Firebase aún no está habilitada, pero esperamos tenerla completamente funcional en una próxima actualización.
+
 ## Agradecimientos
 
 Hecho con ❤️ por Matias Ignacio - https://github.com/Matignaciom
