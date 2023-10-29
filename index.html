@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat en tiempo real</title>
+    <style>
+        .welcome-message {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: #007BFF;
+            /* Cambia el color del texto si es necesario */
+            margin-bottom: 10px;
+            /* Agrega un margen inferior al mensaje de bienvenida */
+        }
+
+
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #3498db;
+        }
+
+        #chat-container {
+            width: 300px;
+            background-color: #fff;
+            /* Cambia el color de fondo del chat aquí */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding-right: 10px;
+        }
+
+        #chat {
+            width: 100%;
+            height: 250px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 10px 10px 0 10px;
+        }
+
+        button {
+            background-color: #007BFF;
+            /* Cambia el color del botón aquí */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 25px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chat-container">
+        <!-- Mensaje de bienvenida -->
+        <p class="welcome-message">¡Bienvenido al chat en tiempo real!</p>
+        <div id="chat"></div>
+        <div class="input-container">
+            <input type="text" id="message" placeholder="Escribe un mensaje">
+            <button id="send" style="margin-top: 10px;">Enviar</button>
+            <button id="login" style="margin-bottom: 10px;">Iniciar Sesión</button>
+            <button id="logout" style="display:none;">Cerrar Sesión</button>
+        </div>
+
+    </div>
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
